@@ -50,4 +50,4 @@ Commands:
 
 source ryu-env310/bin/activate  
 ryu-manager controller/port_monitor.py  
-sudo mn --custom topology/topo.py --topo mytopo --controller remote
+sudo mn --custom Topology/topo.py --topo mytopo --controller remote
