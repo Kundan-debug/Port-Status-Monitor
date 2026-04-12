@@ -26,3 +26,6 @@ To develop an SDN-based port status monitoring system using Ryu and Mininet that
 - Simple and scalable topology for easy testing and analysis
 
 ## System Architecture
+<p align="center">
+  <img src="Architecture/Architecture.png" width="50%">
+</p>
