@@ -95,8 +95,8 @@ source ryu-env310/bin/activate
 ryu-manager controller/port_monitor.py  
 ```
 2. Run Mininet  
-```bash
 Start the custom Mininet topology and connect it to the remote controller:  
+```bash
 sudo mn --custom topology/topo.py --topo mytopo --controller remote  
 ```
 3. Ping Test  
@@ -186,7 +186,7 @@ Port-Status-Monitor/
 │
 ├── Architecture/
 │   └── Architecture.png
-├── Controller/
+├── controller/
 │   └── port_monitor.py
 ├── Screenshots/
 │   ├── 1_Controller Running.png
@@ -196,7 +196,7 @@ Port-Status-Monitor/
 │   ├── 5_Link Down Controller Logs.png
 │   ├── 6_Link Up.png
 │   └── 7_Link Up Controller Logs.png
-├── Topology/
+├── topology/
 │   └── topo.py
 ├── .gitignore
 └── README.md
